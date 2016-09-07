@@ -172,30 +172,30 @@ When FusionMaps is installed via NPM, the package contains the following directo
 
 ```
 node_modules/
-|__ fusionmaps/
-	|
-	|__ package.json
-	|
-	|__ maps/
-	|	|__ fusioncharts.world.js
-	|	|__ fusioncharts.usa.js
-	|	|__ fusioncharts.<MAP_ALIAS>.js
-	|
-	|__ themes/
-	|	|__ fusioncharts.theme.carbon.js
-	|	|__ fusioncharts.theme.fint.js
-	|	|__ fusioncharts.theme.ocean.js
-	|	|__ fusioncharts.theme.zune.js
-	|
-	|__ fusioncharts.js
-	|__ fusioncharts.charts.js
-	|__ fusioncharts.zoomscatter.js
-	|__ fusioncharts.ssgrid.js
-	|__ fusioncharts.powercharts.js
-	|__ fusioncharts.gantt.js
-	|__ fusioncharts.treemap.js
-	|__ fusioncharts.widgets.js
-	|__ fusioncharts.maps.js
+└── fusionmaps/
+	│
+	├── package.json
+	│
+	├── maps/
+	│   ├── fusioncharts.world.js
+	│   ├── fusioncharts.usa.js
+	│   └── fusioncharts.<MAP_ALIAS>.js
+	│
+	├── themes/
+	│   ├── fusioncharts.theme.carbon.js
+	│   ├── fusioncharts.theme.fint.js
+	│   ├── fusioncharts.theme.ocean.js
+	│   └── fusioncharts.theme.zune.js
+	│
+	├── fusioncharts.js
+	├── fusioncharts.charts.js
+	├── fusioncharts.zoomscatter.js
+	├── fusioncharts.ssgrid.js
+	├── fusioncharts.powercharts.js
+	├── fusioncharts.gantt.js
+	├── fusioncharts.treemap.js
+	├── fusioncharts.widgets.js
+	└── fusioncharts.maps.js
 ```
 
 ### Directory Structure: FusionMaps Installed via Bower
@@ -204,28 +204,28 @@ When FusionCharts is installed via Bower, the package contains the following dir
 
 ```
 bower_components/
-|__ fusionmaps/
-	|
-	|__ package.json
-	|
-	|__ maps/
-	|	|__ fusioncharts.world.js
-	|	|__ fusioncharts.usa.js
-	|	|__ fusioncharts.<MAP_ALIAS>.js
-	|
-	|__ themes/
-	|	|__ fusioncharts.theme.carbon.js
-	|	|__ fusioncharts.theme.fint.js
-	|	|__ fusioncharts.theme.ocean.js
-	|	|__ fusioncharts.theme.zune.js
-	|
-	|__ fusioncharts.js
-	|__ fusioncharts.charts.js
-	|__ fusioncharts.ssgrid.js
-	|__ fusioncharts.zoomscatter.js
-	|__ fusioncharts.powercharts.js
-	|__ fusioncharts.gantt.js
-	|__ fusioncharts.treemap.js
-	|__ fusioncharts.widgets.js
-	|__ fusioncharts.maps.js
+└── fusionmaps/
+	│
+	├── package.json
+	│
+	├── maps/
+	│   ├── fusioncharts.world.js
+	│   ├── fusioncharts.usa.js
+	│   └── fusioncharts.<MAP_ALIAS>.js
+	│
+	├── themes/
+	│   ├── fusioncharts.theme.carbon.js
+	│   ├── fusioncharts.theme.fint.js
+	│   ├── fusioncharts.theme.ocean.js
+	│   └── fusioncharts.theme.zune.js
+	│
+	├── fusioncharts.js
+	├── fusioncharts.charts.js
+	├── fusioncharts.zoomscatter.js
+	├── fusioncharts.ssgrid.js
+	├── fusioncharts.powercharts.js
+	├── fusioncharts.gantt.js
+	├── fusioncharts.treemap.js
+	├── fusioncharts.widgets.js
+	└── fusioncharts.maps.js
 ```
