@@ -1,8 +1,9 @@
 ## Introduction
 
-FusionCharts Suite XT is a front-end, JavaScript-based, comprehensive collection of 90+ charts and  1000+ maps. This includes simple and complex charts like the column and bar charts, pie and doughnut charts, treemap, heatmap, logarithmic charts, and so on; gauges like the angular gauge, bulb gauge, thermometer gauge, and so on; and maps for all continents, major countries, and all US states.
+FusionCharts Suite XT is a front-end, JavaScript-based, comprehensive collection of 90+ charts and  1000+ maps. This includes simple and complex charts (like the column and bar charts, pie and doughnut charts, the treemap, heatmap, and logarithmic charts), gauges (like the angular gauge, bulb gauge, and the thermometer gauge) and maps (all continents, major countries, and all US states).
 
 The **fusionmaps** package includes the complete FusionCharts Suite XT; along with all the charts and widgets, it includes map definition files for all maps offered by FusionCharts. 
+
 It is recommended that you download the **fusioncharts** package if you will be needing only the charts and widgets; with just two map definition files (for the USA and world maps) the package size is smaller and can be installed faster.
 
 * Official website: [http://www.fusioncharts.com/](http://www.fusioncharts.com/)
@@ -15,9 +16,9 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
 - [Quick Start](#quick-start)
 	- [Installing FusionMaps from NPM](#installing-fusionmaps-from-npm)
-		- [Including Chart-specific Files for Rendering Charts via NPM](#including-chart-specific-files-for-rendering-charts-via-npm)
+		- [Chart-specific Dependencies for Rendering Charts via NPM](#chart-specific-dependencies-for-rendering-charts-via-npm)
 	- [Installing FusionMaps from Bower](#installing-fusionmaps-from-bower)
-		- [Including Chart-specific Files for Rendering Charts via Bower](#including-chart-specific-files-for-rendering-charts-via-bower)
+		- [Chart-specific Dependencies for Rendering Charts via Bower](#chart-specific-dependencies-for-rendering-charts-via-bower)
 - [What's Included](#whats-included)
 	- [Directory Structure for FusionMaps Installed via NPM](#directory-structure-for-fusionmaps-installed-via-npm)
 	- [Directory Structure for FusionMaps Installed via Bower](#directory-structure-for-fusionmaps-installed-via-bower)
@@ -39,9 +40,9 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
    `require("fusioncharts/fusioncharts.maps")(FusionCharts);`
    
-4. Load the map definition file(s) for the map(s) to be rendered using the format: **fusioncharts.&lt;MAP_ALIAS&gt;.js**, where **MAP_ALIAS** gets replaced by the map's JavaScript alias. Click [here](http://www.fusioncharts.com/dev/getting-started/list-of-maps.html) to get the alias names for all map definition files. Map definition files for all maps to be rendered in the application have to be included.
+4. Load the map definition file(s) for the map(s) to be rendered using the format: **fusioncharts.&lt;MAP_ALIAS&gt;**, where **MAP_ALIAS** gets replaced by the map's JavaScript alias. Click [here](http://www.fusioncharts.com/dev/getting-started/list-of-maps.html) to get the alias names for all map definition files. Map definition files for all maps to be rendered in the application have to be included.
 
-   Assuming that you need to render the world map:
+   Therefore, assuming that you need to render the world map, the alias name __world__ replaces the __MAP_ALIAS__ in the format.
    
    `require("fusioncharts/maps/fusioncharts.world")(FusionCharts);`
 
@@ -61,9 +62,9 @@ It is recommended that you download the **fusioncharts** package if you will be 
 }).render("chartContainer");
 ```
 
-#### Including Chart-specific Files for Rendering Charts via NPM
+#### Chart-specific Dependencies for Rendering Charts via NPM
 
-For certain chart types, you may need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
+For some chart types, you need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 - To render the zoom-scatter chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.charts.js** files _before_ the **fusioncharts.zoomscatter.js** file.
   
   ```
@@ -116,6 +117,8 @@ For certain chart types, you may need to include/exclude certain files and in a 
    
 4. Load the map definition file(s) for the map(s) to be rendered using the format: **fusioncharts.&lt;MAP_ALIAS&gt;.js**, where **MAP_ALIAS** gets replaced by the map’s JavaScript alias. Click [here](http://www.fusioncharts.com/dev/getting-started/list-of-maps.html) to get the alias names for all map definition files. Map definition files for all maps to be rendered in the application have to be included.
 
+	Therefore, assuming that you need to render the world map, the alias name __world__ replaces the __MAP_ALIAS__ in the format.
+
   `<script src="bower_components/fusionmaps/maps/fusioncharts.world.js"></script>`
 
    **Note**: Unlike the core files that are stored in the **fusioncharts** directory, all map definition files are stored in the **maps** directory and are required to be fetched from there.
@@ -132,14 +135,14 @@ For certain chart types, you may need to include/exclude certain files and in a 
 		"dataSource": {
 			chart:{}
 		}
-	}).render(‘chartContainer’);
+	}).render("chartContainer");
 	</script>
 
 	```
 
 #### Including Chart-specific Files for Rendering Charts via Bower
 
-For certain chart types, you may need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
+For some chart types, you need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 
 - To render the zoom-scatter chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.charts.js** files _before_ the **fusioncharts.zoomscatter.js** file.
 
