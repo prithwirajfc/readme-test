@@ -1,10 +1,10 @@
 ## Introduction
 
-FusionCharts Suite XT is a front-end, JavaScript-based, comprehensive collection of 90+ charts and  1000+ maps. This includes simple and complex charts (column and bar charts, pie and doughnut charts, treemap, heatmap, logarithmic charts, and so on), gauges (angular gauge, bulb gauge, thermometer gauge, and so on) and maps (all continents, major countries, and all US states).
+FusionCharts Suite XT is a front-end, JavaScript-based, comprehensive collection of 90+ charts and  1000+ maps. This includes simple and complex charts (like the column and bar charts, pie and doughnut charts, the treemap, heatmap, and logarithmic charts), gauges (like the angular gauge, bulb gauge, and the thermometer gauge) and maps (all continents, major countries, and all US states).
 
 The **fusioncharts** package includes files for all charts and widgets offered by the product. In order to limit the package size, it includes map definition files for only two maps—the world map and the USA map. 
 
-It is recommended that you download the **fusionmaps** package if you  will be needing all the map definition files. This package includes the complete FusionCharts Suite XT as well as all the map definition files.
+It is recommended that you download the **fusionmaps** package if you want to render maps. This package includes the complete FusionCharts Suite XT as well as the map definition files for all maps.
 
 * Official website: [http://www.fusioncharts.com/](http://www.fusioncharts.com/)
 * Download page: [http://www.fusioncharts.com/download/](http://www.fusioncharts.com/download/)
@@ -16,11 +16,11 @@ It is recommended that you download the **fusionmaps** package if you  will be n
 
 - [Quick Start](#quick-start)
   - [Installing FusionCharts from NPM](#installing-fusioncharts-from-npm)
-    - [Package-specific Dependencies for Rendering Charts via NPM](#package-specific-dependencies-for-rendering-charts-via-npm)
-    - [Chart-specific Dependencies for Rendering Charts via NPM](#chart-specific-dependencies-for-rendering-charts-via-npm)
+    - [Package-specific Dependencies for NPM](#package-specific-dependencies-for-npm)
+    - [Chart-specific Dependencies for NPM](#chart-specific-dependencies-for-npm)
   - [Installing FusionCharts from Bower](#installing-fusioncharts-from-bower)
-    - [Package-specific Dependencies for Rendering Charts via Bower](#package-specific-dependencies-for-rendering-charts-via-bower)
-    - [Chart-specific Dependencies for Rendering Charts via Bower](#chart-specific-dependencies-for-rendering-charts-via-bower)
+    - [Package-specific Dependencies for Bower](#package-specific-dependencies-for-bower)
+    - [Chart-specific Dependencies for Bower](#chart-specific-dependencies-for-bower)
 - [What's Included](#whats-included)
   - [Directory Structure for FusionCharts Installed via NPM](#directory-structure-for-fusioncharts-installed-via-npm)
   - [Directory Structure for FusionCharts Installed via Bower](#directory-structure-for-fusioncharts-installed-via-bower)
@@ -57,7 +57,7 @@ It is recommended that you download the **fusionmaps** package if you  will be n
 }).render("chartContainer");
 ```
 
-#### Package-specific Dependencies for Rendering Charts via NPM
+#### Package-specific Dependencies for NPM
 
 - To render a chart belonging to the PowerCharts package, load the PowerCharts module:
 
@@ -81,7 +81,7 @@ To know the map definition file names, refer the [list of maps](http://www.fusio
 
 **Note**: The map definition files have to be included for all maps that you want to render in your application. Unlike the core files that are stored in the **fusioncharts** directory, all map definition files are stored in the **maps** directory and are required to be fetched from there.
 
-#### Chart-specific Dependencies for Rendering Charts via NPM
+#### Chart-specific Dependencies for NPM
 
 For some chart types, you need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 
@@ -152,7 +152,7 @@ For some chart types, you need to include/exclude certain files and in a certain
 </script>
 ```
 
-#### Package-specific Dependencies for Rendering Charts via Bower
+#### Package-specific Dependencies for Bower
 
 - To render a chart belonging to the PowerCharts package, load the PowerCharts module:
 
@@ -175,7 +175,7 @@ To know the map definition file names, refer the [list of maps](http://www.fusio
 
 **Note**: The map definition files have to be included for all maps that you want to render in your application. Unlike the core files that are stored in the **fusioncharts** directory, all map definition files are stored in the **maps** directory and are required to be fetched from there.
 
-#### Chart-specific Dependencies for Rendering Charts via Bower
+#### Chart-specific Dependencies for Bower
 
 For some chart types, you need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 
