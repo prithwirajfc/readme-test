@@ -217,7 +217,7 @@ For some chart types, you need to include/exclude certain files and in a certain
   
 ## What's Included
 
-### Directory dtructure for FusionCharts installed via npm
+### Directory structure for FusionCharts installed via npm
 
 When FusionCharts is installed via npm, the downloaded package contains the following directories and files:
 
