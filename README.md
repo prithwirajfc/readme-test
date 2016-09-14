@@ -16,9 +16,9 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
 - [Quick Start](#quick-start)
 	- [Installing FusionMaps from npm](#installing-fusionmaps-from-npm)
-		- [Chart-specific dependencies-for-npm](#chart-specific-dependencies-for-npm)
+		- [Chart-specific dependencies for npm](#chart-specific-dependencies-for-npm)
 	- [Installing FusionMaps from Bower](#installing-fusionmaps-from-bower)
-		- [Chart-specific dependencies-for-Bower](#chart-specific-dependencies-for-bower)
+		- [Chart-specific dependencies for Bower](#chart-specific-dependencies-for-bower)
 - [What's Included](#whats-included)
 	- [Directory structure for FusionMaps installed via npm](#directory-structure-for-fusionmaps-installed-via-npm)
 	- [Directory structure for FusionMaps installed via Bower](#directory-structure-for-fusionmaps-installed-via-bower)
